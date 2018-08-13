@@ -1,5 +1,5 @@
 class User
-  attr_accessor :first_name, :last_name
+  attr_accessor :user
 
   def initialize(first_name, last_name)
     self.first_name = first_name
